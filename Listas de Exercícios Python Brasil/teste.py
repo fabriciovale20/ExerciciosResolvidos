@@ -1,5 +1,2 @@
-a = 'a'
-b = 'b'
-c = 'a'
-
-print(set([a, b, c]))
+dct = {'nome':'Fabricio', 'idade': 29, 'sexo': 'Masculino'}
+print(dct.items())
