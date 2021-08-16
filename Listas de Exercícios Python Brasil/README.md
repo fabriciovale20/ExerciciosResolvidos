@@ -1,6 +1,6 @@
 # Lista de Exercícios Python Brasil
 
-[Lista de Exerícios Python Brasil](https://wiki.python.org.br/ListaDeExercicios)
+## [Lista de Exerícios Python Brasil](https://wiki.python.org.br/ListaDeExercicios)
 
 [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
 
