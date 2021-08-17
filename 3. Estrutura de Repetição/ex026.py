@@ -70,5 +70,3 @@ else:
         empate = f'{nome_candidato2} e {nome_candidato3}'
     print(f'--- EMPATE ---\n'
           f'Houve um empate entre {empate}.')
-
-
