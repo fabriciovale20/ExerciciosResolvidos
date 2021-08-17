@@ -1,3 +1,8 @@
+"""
+    Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores.
+Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato.
+"""
+
 numero_de_eleitores = int(input('Número de eleitores: '))
 
 print(f'{numero_de_eleitores} eleitores iram votar.\n'
