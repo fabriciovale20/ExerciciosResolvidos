@@ -1,3 +1,9 @@
+"""
+    Exercício 11
+
+    Altere o programa anterior para mostrar no final a soma dos números.
+"""
+
 valor_a = int(input('Primero número: '))
 valor_b = int(input('Segundo número: '))
 

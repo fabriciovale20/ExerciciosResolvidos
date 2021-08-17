@@ -1,3 +1,9 @@
+"""
+    Exercício 7
+
+    Faça um programa que leia 5 números e informe o maior número.
+"""
+
 cont = 0
 
 while cont != 5:

@@ -1,3 +1,9 @@
+"""
+    Exercício 19
+
+    Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
+"""
+
 cont = menor = maior = numero = 0
 
 print('Para encerrar o programa digite "parar".')

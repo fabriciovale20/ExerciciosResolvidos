@@ -1,3 +1,9 @@
+"""
+    Exercício 24
+
+    Faça um programa que calcule o mostre a média aritmética de N notas.
+"""
+
 numero = int(input('Digite um número: '))
 
 cont = soma_nota = 0

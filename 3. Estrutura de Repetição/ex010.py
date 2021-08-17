@@ -1,3 +1,10 @@
+"""
+    Exercício 10
+
+    Faça um programa que receba dois números inteiros e gere os números inteiros que estão no
+intervalo compreendido por eles.
+"""
+
 valor_a = int(input('Primero número: '))
 valor_b = int(input('Segundo número: '))
 

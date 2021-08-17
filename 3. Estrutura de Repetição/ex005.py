@@ -1,3 +1,10 @@
+"""
+    Exercício 5
+
+    Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.
+Valide a entrada e permita repetir a operação.
+"""
+
 populacao_a = int(input('População A: '))
 crescimento_a = float(input('Crescimento A: '))
 

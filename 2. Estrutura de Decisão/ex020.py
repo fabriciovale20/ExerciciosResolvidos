@@ -1,4 +1,6 @@
 """
+    Exercício 20
+
     Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançadpa
 or aluno e presentar:
 

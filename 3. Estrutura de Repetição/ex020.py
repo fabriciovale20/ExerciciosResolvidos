@@ -1,3 +1,10 @@
+"""
+    Exercício 20
+
+    Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o fatorial várias vezes e
+limitando o fatorial a números inteiros positivos e menores que 16.
+"""
+
 print('Para encerrar o programa digite "Parar"!')
 while True:
     fatorial_resultado = 1
@@ -16,5 +23,3 @@ while True:
             print(f'{c}', end='.')
         fatorial_resultado *= c
     print(fatorial_resultado)
-
-
