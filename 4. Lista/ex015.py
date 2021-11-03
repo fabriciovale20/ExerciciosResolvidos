@@ -40,7 +40,7 @@ while True:
 
 print('-'*20)
 print('Finalizando coleta de números', end='')
-for c in range(0, 3):
+for c in range(3):
     sleep(1)
     print('.', end='')
 print()

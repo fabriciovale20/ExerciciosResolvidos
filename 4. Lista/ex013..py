@@ -15,7 +15,7 @@ print('-'*20)
 print('TEMPERATURAS'.center(20))
 print('-'*20)
 
-for c in range(0, 12):
+for c in range(12):
     dados[c].append(int(input(f"{dados[c][0]}: ")))
 
 for c in dados:

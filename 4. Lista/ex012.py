@@ -16,7 +16,7 @@ for c in range(0, len(dados)):
 
 media_altura /= len(dados)
 
-for c in range(0, len(dados)):
+for c in range(len(dados)):
     if dados[c][0] > 13 and dados[c][1] < media_altura:
         cont += 1
 
