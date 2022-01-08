@@ -7,3 +7,7 @@
 → [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
 
 → [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao)
+
+→ [Listas](https://wiki.python.org.br/ExerciciosListas)
+
+→ [Funções](https://wiki.python.org.br/ExerciciosFuncoes)
