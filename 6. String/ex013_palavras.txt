@@ -1,0 +1,11 @@
+python
+django
+script
+computador
+curso
+atividade
+notebook
+youtube
+google
+celular
+teclado

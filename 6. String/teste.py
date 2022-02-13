@@ -1,8 +1,5 @@
-palavra_sorteada = 'teste'
-acertos = []
+teste = 'ola'
 
-for _ in range(len(palavra_sorteada)):
-    acertos.append('_')
+teste[1] = 'o'
 
-for c in acertos:
-    print(c, end=' ')
+print(teste)
