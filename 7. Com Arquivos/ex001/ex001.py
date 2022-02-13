@@ -45,21 +45,17 @@ for c in ip:
             invalido += 1
         
     if invalido > 0:
-        ip_invalidos.append('.'.join(validar)) # IP inválido
+        ip_invalidos.append('.'.join(validar)) # Adicionado a lista IP inválido
     else:
-        ip_validos.append('.'.join(validar)) # IP válido
+        ip_validos.append('.'.join(validar)) # Adicionado a lista IP válido
 
-print(ip_validos)
-print(ip_invalidos)
-ip_validos = '\n'.join(ip_validos)
-ip_invalidos ='\n'.join(ip_invalidos)
-print(ip_validos)
-print(ip_invalidos)
+ip_validos = '\n'.join(ip_validos) # Transformar lista para string para poder ser registrado no arquivo TXT
+ip_invalidos ='\n'.join(ip_invalidos) # Transformar lista para string para poder ser registrado no arquivo TXT
 
-with open(r'7. Com Arquivos/ex001/ip_validos.txt', 'w', encoding='utf8') as arquivo_valido:
-    arquivo_valido.write('[Endereços válidos:]\n')
-    arquivo_valido.write(ip_validos)
+with open(r'7. Com Arquivos/ex001/ip_validos.txt', 'w', encoding='utf8') as arquivo_valido: # Arquivo de IP Válidos
+    arquivo_valido.write('[Endereços válidos:]\n') # Escrevendo cabeçalho
+    arquivo_valido.write(ip_validos) # Registrando no arquivo TXT os IP válidos
 
-with open(r'7. Com Arquivos/ex001/ip_invalidos.txt', 'w', encoding='utf8') as arquivo_invalido:
-    arquivo_invalido.write('[Endereços inválidos:]\n')
-    arquivo_invalido.write(ip_invalidos)
+with open(r'7. Com Arquivos/ex001/ip_invalidos.txt', 'w', encoding='utf8') as arquivo_invalido: # Arquivo de IP Inválidos
+    arquivo_invalido.write('[Endereços inválidos:]\n') # Escrevendo cabeçalho
+    arquivo_invalido.write(ip_invalidos) # Registrando no arquivo TXT os IP inválidos
